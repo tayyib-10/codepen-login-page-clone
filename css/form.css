@@ -1,0 +1,54 @@
+.form {
+  height: 20px;
+  margin: 90px;
+  width: 70vw;
+  display: flex;
+}
+
+.logo__faded {
+  color: #74787D;
+  text-align: left;
+}
+
+.log-in {
+  color: white;
+  font-size: 80px;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+
+.message {
+  background-color: #4E518E;
+  color: white;
+  width: 32vw;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+pre > span {
+  color: #00F9FF;
+}
+
+.userInput p {
+  color: #C9CAD9;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.inputForm {
+  height: 40px;
+  width: 32vw;
+  background-color: #C9CAD9;
+  border: none;
+  font-size: 25px;
+}
+
+.inputForm:focus {
+  outline: none;
+}
+
+.fancyDivider {
+  color: red;
+  width: 30px;
+  transform: translate(-90deg);
+}
