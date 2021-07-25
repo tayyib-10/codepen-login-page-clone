@@ -3,4 +3,10 @@
   grid-template-columns: 20% 80%;
 }
 
+@media (orientation:portrait) {
+  .container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+}
 

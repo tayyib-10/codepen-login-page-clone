@@ -1,8 +1,8 @@
 .form {
-  height: 20px;
-  margin: 90px;
-  width: 70vw;
+  margin: 10%;
+  padding: 5px;
   display: flex;
+  justify-content: space-between;
 }
 
 .logo__faded {
@@ -12,43 +12,115 @@
 
 .log-in {
   color: white;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bolder;
-  margin-top: -10px;
 }
 
 .message {
-  background-color: #4E518E;
+  background-color: #42445A;
+  width: 30vw;
+  word-wrap: ellipse;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.message p{
   color: white;
-  width: 32vw;
-  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.message p span {
+  color: #00FFEA;
+  font-size: 20px;
+}
+
+.left form {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+form .Username, form .Password {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 45px;
+  font-size: 30px;
+  background-color: #C6C6C6;
+  color: white;
   border-radius: 5px;
 }
 
-pre > span {
-  color: #00F9FF;
+form span {
+  color: white;
 }
 
-.userInput p {
-  color: #C9CAD9;
-  margin-top: 20px;
-  margin-bottom: 3px;
-}
-
-.inputForm {
-  height: 40px;
-  width: 32vw;
-  background-color: #C9CAD9;
+.left button {
+  width: 100%;
+  background-color: #00FF40;
+  color: black;
+  margin-left: 5px;
+  height: 35px;
+  border-radius: 5px;
   border: none;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight:600;
 }
 
-.inputForm:focus {
-  outline: none;
+.forget {
+  display: flex;
+  justify-content: center;
+  width: 32vw;
+  height: 50px;
+  align-items: center;
 }
 
-.fancyDivider {
-  color: red;
-  width: 30px;
-  transform: translate(-90deg);
+.forget p {
+  color: #00FFF7;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  align-content: center;
+  justify-content: center;
+}
+
+.media {
+  width: 130%;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.Twitter {
+  background-color: #2BBDCD;
+}
+
+.Github {
+  background-color: grey;
+}
+
+.Facebook {
+  background-color: blue;
+}
+
+@media all and  (orientation:potrait) {
+  .form {
+    display: flex;
+    background-color: mediumblue;
+    flex-direction: column;
+  }
+  
+  .media {
+    width: 30px;
+  }
 }

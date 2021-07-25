@@ -46,3 +46,9 @@
   font-size: 17px;
   letter-spacing: 0.1rem;
 }
+
+@media (orientation:portrait) {
+  .search {
+    width: 50vw;
+  }
+}
